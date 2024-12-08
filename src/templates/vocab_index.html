@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Der|Die|Das</title>
+        <style>
+            {% include 'style.css' %}
+        </style>
+        </head>
+    <body>
+        <div class="row"><a href="index.html"><button>Go Back</button></a></div>
+        <br>
+        <div class="row">
+            <form action="match{{ style }}.html" method="post">
+                <div class="row">
+                    {% for meaning in meanings %}
+                        {% if is_used[loop.index - 1] == "T" %}
+                            <button type="button" class="small used">{{ meaning }}</button>
+                        {% else %}
+                            <button type="submit" name="meaning_{{ loop.index }}" class="small unused">{{ meaning }}</button>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <table>
+                    <thead>
+                        <tr class="border">
+                            <th>Word</th>
+                            <th>Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for word in words %}
+                        <tr class="border">
+                            <td>
+                                {{word}}
+                                <input type="hidden" name="word{{ loop.index }}" value="{{word}}">
+                            </td>
+                            <td>
+                                <i><span style="color: blue;">{{input_meanings[loop.index - 1]}}</span></i>
+                                <input type="hidden" name="meaning{{ loop.index }}" value="{{input_meanings[loop.index - 1]}}">
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <button type="submit" name="revert" class="small unused">&#10226;</button>
+            </div>
+            <div class="row">
+                <button type="submit" name="reset">Reset</button>
+                <button type="submit" name="check">Check</button>
+            </div>
+        </form>
+    </body>
+</html>

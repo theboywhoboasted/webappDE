@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Check</title>
+        <style>
+        {% include 'style.css' %}
+        </style>
+    </head>
+    <body>
+        <div class="row"><a href="index.html"><button>Go Back</button></a></div>
+        <div class="row">
+            <table>
+                <tr class="titles">
+                    <th>Article</th>
+                    <th>Word</th>
+                    <th>Meaning</th>
+                    <th>Plural</th>
+                </tr>
+                {% for correct_article,article,word,meaning,plural in outputs %}
+                <tr>
+                    {% if correct_article == article %}
+                    <td style="color: green;">{{article}}</td>
+                    {% else %}
+                    <td style="color: red;"><s>{{article}}</s>  {{correct_article}}</td>
+                    {% endif %}
+                    <td>{{word}}</td>
+                    <td>{{meaning}}</td>
+                    <td>{{plural}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <div class="row">
+            <a href="derdiedas.html"><button>Play Again</button></a>
+        </div>
+    </body>
+</html>

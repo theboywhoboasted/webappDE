@@ -1,0 +1,321 @@
+word,article,meaning,plural,rank,level
+Jahr,Das,year,Jahre,78.0,a12
+Polizei,Die,police,Polizeien,245.0,a12
+Weg,Der,way,Wege,284.0,a12
+Woche,Die,week,Wochen,289.0,a12
+Geschichte,Die,history,Geschichten,297.0,a11
+Platz,Der,space,Plätze,326.0,a12
+Zahl,Die,number,Zahlen,340.0,a11
+Haus,Das,house,Häuser,369.0,a12
+Markt,Der,market,Märkte,378.0,a12
+Zukunft,Die,future,Zukünfte,413.0,a11
+Bild,Das,picture,Bilder,443.0,a11
+Hand,Die,hand,Hände,503.0,a12
+Musik,Die,music,Musiken,510.0,a11
+Buch,Das,book,Bücher,514.0,a11
+Paar,Das,couple,Paare,524.0,a11
+Eltern,Die,parents,Eltern,538.0,a11
+Nacht,Die,night,Nächte,571.0,a11
+Firma,Die,Company,Firmen,576.0,a11
+Kirche,Die,church,Kirchen,583.0,a12
+Wasser,Das,water,-,595.0,a12
+Straße,Die,street,Straßen,605.0,a12
+Mutter,Die,mother,Mütter,609.0,a11
+Gericht,Das,court,Gerichte,612.0,a11
+Vater,Der,father,Väter,620.0,a11
+Kopf,Der,head,Köpfe,627.0,a12
+Mannschaft,Die,team,Mannschaften,675.0,a11
+Ausstellung,Die,exhibition,Ausstellungen,678.0,a11
+Gespräch,Das,conversation,Gespräche,695.0,a12
+Schule,Die,school,Schulen,698.0,a12
+Aufgabe,Die,task,Aufgaben,739.0,a11
+Abend,Der,evening,Abende,760.0,a11
+Vergangenheit,Die,past,Vergangenheiten,763.0,a11
+Boden,Der,floor,Böden,782.0,a12
+Sohn,Der,son,Söhne,787.0,a11
+Verein,Der,Union,Vereine,797.0,a11
+Bank,Die,Bank,Bänke,822.0,a12
+Theater,Das,theater,Theater,862.0,a11
+Geschäft,Das,business,Geschäfte,868.0,a12
+Tochter,Die,daughter,Töchter,869.0,a11
+Stunde,Die,hour,Stunden,913.0,a12
+Monat,Der,month,Monate,962.0,a12
+Wohnung,Die,apartment,Wohnungen,1016.0,a12
+Morgen,Der,morning,Morgen,1045.0,a11
+Natur,Die,nature,Naturen,1051.0,a11
+Computer,Der,computer,Computer,1102.0,a11
+Kurs,Der,course,Kurse,1135.0,a12
+Zentrum,Das,center,Zentren,1154.0,a12
+Schweiz,Die,Switzerland,Schweizen,1157.0,a11
+Licht,Das,light,-,1162.0,a12
+Sitzung,Die,session,Sitzungen,1261.0,a12
+Papier,Das,paper,Papiere,1279.0,a11
+Freund,Der,boyfriend,Freunde,1290.0,a11
+Tisch,Der,table,Tische,1306.0,a11
+Bahn,Die,train,Bahnen,1325.0,a11
+Museum,Das,museum,Museen,1329.0,a11
+König,Der,king,Könige,1345.0,a11
+Lehrer,Der,teacher,Lehrer,1352.0,a11
+Nummer,Die,number,Nummern,1373.0,a11
+Rathaus,Das,town hall,Rathäuser,1401.0,a12
+Ruhe,Die,calm,-,1459.0,a12
+Hotel,Das,hotel,Hotels,1553.0,a12
+Geburtstag,Der,birthday,Geburtstage,1557.0,a12
+Praxis,Die,practice,-,1571.0,a12
+Essen,Das,food,Essen,1610.0,a12
+Krankenhaus,Das,hospital,Krankenhäuser,1613.0,a12
+Rechnung,Die,bill,Rechnungen,1616.0,a11
+Telefon,Das,phone,Telefone,1628.0,a11
+Sonne,Die,sun,Sonnen,1634.0,a12
+Fenster,Das,window,Fenster,1655.0,a12
+Flughafen,Der,airport,Flughäfen,1659.0,a11
+Auge,Das,eye,Augen,1728.0,a12
+Arzt,Der,doctor,Ärzte,1768.0,a12
+Dorf,Das,village,Dörfer,1884.0,a12
+Post,Die,post,Posten,1885.0,a12
+Krankheit,Die,disease,Krankheiten,1891.0,a11
+Kino,Das,cinema,Kinos,1944.0,a11
+Zug,Der,train,Züge,1966.0,a11
+Rücken,Der,back,Rücken,2027.0,a12
+Lust,Die,lust,Lüste,2094.0,a11
+Schauspieler,Der,actor,Schauspieler,2095.0,a11
+Wind,Der,wind,Winde,2295.0,a12
+Prüfung,Die,exam,Prüfungen,2316.0,a12
+Termin,Der,appointment,Termine,2340.0,a11
+Iran,Der,Iran,-,2398.0,a11
+Spiegel,Der,mirror,Spiegel,2440.0,a11
+Nachmittag,Der,afternoon,Nachmittage,2474.0,a11
+Farbe,Die,color,Farben,2529.0,a11
+Konzert,Das,concert,Konzerte,2531.0,a11
+Keller,Der,cellar,Keller,2610.0,a12
+Stadtteil,Der,district,Stadtteile,2648.0,a12
+Bahnhof,Der,station,Bahnhöfe,2678.0,a11
+Mischung,Die,mixture,Mischungen,2714.0,a11
+Fuß,Der,foot,Füße,2732.0,a12
+Bus,Der,bus,Busse,2746.0,a11
+Schlüssel,Der,key,Schlüssel,2799.0,a11
+Regen,Der,rain,Regen,2851.0,a12
+Kollege,Der,The colleague,Kollegen,2870.0,a11
+Holz,Das,wood,Hölzer,2877.0,a11
+Schwester,Die,sister,Schwestern,2890.0,a11
+Weihnachten,Das,Christmas,Weihnachten,2911.0,a12
+Freundin,Die,girlfriend,Freundinnen,2928.0,a11
+Nase,Die,nose,Nasen,2937.0,a12
+Anzeige,Die,ad,Anzeigen,2951.0,a12
+Brücke,Die,bridge,Brücken,3037.0,a12
+Mund,Der,mouth,Münder,3073.0,a12
+Herkunft,Die,origin,Herkünfte,3088.0,a11
+Garten,Der,garden,Gärten,3092.0,a12
+Bett,Das,bed,Betten,3123.0,a11
+Küche,Die,kitchen,Küchen,3186.0,a12
+Restaurant,Das,restaurant,Restaurants,3269.0,a11
+Flugzeug,Das,The plane,Flugzeuge,3380.0,a11
+Tasche,Die,pocket,Taschen,3407.0,a11
+Bildschirm,Der,screen,Bildschirme,3490.0,a11
+Ehefrau,Die,wife,Ehefrauen,3505.0,a11
+Finger,Der,finger,Finger,3545.0,a12
+Arm,Der,arm,Arme,3574.0,a12
+Radio,Das,radio,Radios,3605.0,a12
+Baum,Der,tree,Bäume,3668.0,a12
+Stadion,Das,stadium,Stadien,3679.0,a12
+Ring,Der,ring,Ringe,3799.0,a11
+Vogel,Der,bird,Vögel,3805.0,a11
+Medikamente,Die,medication,Medikamente,3867.0,a12
+Laden,Der,store,-,3913.0,a12
+Schnee,Der,snow,-,3957.0,a12
+Müll,Der,garbage,-,3999.0,a12
+Uni,Die,University,Unis,4112.0,a12
+Hals,Der,neck,Hälse,4156.0,a12
+Haare,Die,hair,Haare,4224.0,a12
+Kindergarten,Der,kindergarten,Kindergärten,4320.0,a12
+Bibliothek,Die,library,Bibliotheken,4444.0,a12
+Rock,Der,skirt,Röcke,4531.0,a12
+Ehemann,Der,husband,Ehemänner,4550.0,a11
+Altstadt,Die,old town,Altstädte,4733.0,a12
+Brot,Das,bread,Brote,4851.0,a11
+Miete,Die,rent,Mieten,4853.0,a12
+Ohr,Das,ear,Ohren,5066.0,a12
+Knie,Das,knee,Knie,5145.0,a12
+Bauch,Der,belly,Bäuche,5181.0,a12
+Hut,Der,hat,Hüte,5190.0,a12
+Brust,Die,breast,Brüste,5224.0,a12
+Vorsicht,Die,Caution,-,5247.0,a11
+Café,Das,cafe,Cafés,5320.0,a11
+Schuhe,Die,shoes,Schuhe,5360.0,a12
+Milch,Die,milk,-,5396.0,a11
+Fernseher,Der,TV,Fernseher,5580.0,a12
+Bad,Das,bathroom,Bäder,5670.0,a12
+Bein,Das,leg,Beine,5697.0,a12
+Locken,Die,curls,Locken,5730.0,a12
+Student,Der,student,Studenten,5766.0,a11
+Schmerzen,Die,pain,Schmerzen,5984.0,a12
+Stuhl,Der,chair,Stühle,6056.0,a11
+Fisch,Der,fish,Fische,6112.0,a11
+Turm,Der,tower,Türme,6228.0,a12
+Hochzeit,Die,wedding,Hochzeiten,6253.0,a12
+Bar,Die,bar,Bars,6362.0,a11
+Vermieter,Der,landlord,Vermieter,6481.0,a12
+Kette,Die,chain,Ketten,6756.0,a11
+Möbel,Die,furniture,-,6775.0,a11
+Geschenk,Das,gift,Geschenke,6808.0,a11
+Handy,Das,phone,Handys,6867.0,a11
+Nebel,Der,fog,Nebel,6945.0,a12
+Abfall,Der,trash,Abfälle,7065.0,a12
+Flasche,Die,bottle,Flaschen,7083.0,a11
+Vormittag,Der,morning,Vormittage,7126.0,a11
+Wohnzimmer,Das,living room,Wohnzimmer,7136.0,a12
+Koffer,Der,suitcase,Koffer,7168.0,a11
+Verkäufer,Der,seller,Verkäufer,7270.0,a11
+Ostern,Das,Easter,Ostern,7445.0,a12
+Kuchen,Der,cake,Kuchen,7505.0,a11
+Enkel,Der,grandson,Enkel,7579.0,a11
+Formular,Das,form,Formulare,7734.0,a11
+Kollegin,Die,The colleague,Kolleginnen,7772.0,a11
+Tee,Der,tea,Tees,7840.0,a11
+Hose,Die,pants,Hosen,7868.0,a12
+Maus,Die,mouse,Mäuse,7884.0,a11
+Kneipe,Die,pub,Kneipen,7908.0,a11
+Rezept,Das,recipe,Rezepte,8153.0,a12
+Ingenieur,Der,engineer,Ingenieure,8174.0,a11
+Treppe,Die,stairs,Treppen,8192.0,a12
+Ausflug,Der,excursion,Ausflüge,8403.0,a11
+Großvater,Der,grandpa,Großväter,8450.0,a11
+Hemd,Das,shirt,Hemden,8458.0,a12
+Großmutter,Die,grandmother,Großmütter,8732.0,a11
+Supermarkt,Der,supermarket,Supermärkte,8791.0,a12
+Dom,Der,cathedral,Dome,8799.0,a12
+Führerschein,Der,driver's license,Führerscheine,8867.0,a12
+Drucker,Der,printer,Drucker,9053.0,a11
+Brille,Die,glasses,Brillen,9180.0,a11
+Vorfahren,Die,ancestors,Vorfahren,9245.0,a11
+Schloss,Das,castle,Schlösser,9299.0,a12
+Gepäck,Das,luggage,-,9420.0,a11
+Mantel,Der,coat,Mäntel,9439.0,a12
+Teppich,Der,carpet,Teppiche,9789.0,a11
+Ampel,Die,traffic light,Ampeln,9844.0,a12
+Käse,Der,cheese,Käse,9914.0,a11
+Turkei,Die,Turkey,-,,a11
+Mechatroniker,Der,mechatronic,Mechatroniker,,a11
+Jouranlistin,Die,journalist,-,,a11
+Friseurin,Die,hairdresser,Friseurinnen,,a11
+Architektin,Die,architect,Architektinnen,,a11
+Sekretärin,Die,Secretary,Sekretärinnen,,a11
+Ärtzin,Die,doctor,-,,a11
+Kellnerin,Die,waitress,Kellnerinnen,,a11
+Geschwister,Die,siblings,Geschwister,,a11
+Opa,Der,grandpa,Opas,,a11
+Oma,Die,grandma,Omas,,a11
+Großeltern,Die,grandparents,Großeltern,,a11
+Enkelin,Die,granddaughter,Enkelinnen,,a11
+Sessel,Der,armchair,Sessel,,a11
+Lampe,Die,lamp,Lampen,,a11
+Sofa,Das,sofa,Sofas,,a11
+Couch,Die,couch,-,,a11
+Schrank,Der,cupboard,Schränke,,a11
+Bleistift,Der,pencil,Bleistifte,,a11
+Feuerzeug,Das,lighter,Feuerzeuge,,a11
+Fotoapparat,Der,Camera,Fotoapparate,,a11
+Kugelschreiber,Der,ballpoint pen,Kugelschreiber,,a11
+Regenschirm,Der,umbrella,Regenschirme,,a11
+Streichholz,Das,match,Streichhölzer,,a11
+Seife,Die,soap,Seifen,,a11
+Geldbörse,Die,wallet,Geldbörsen,,a11
+Laptop,Der,laptop,Laptops,,a11
+E-Mail,Die,e-mail,E-Mails,,a11
+SMS,Die,SMS,SMS,,a11
+Briefmarke,Die,stamp,Briefmarken,,a11
+Stift,Der,pencil,Stifte,,a11
+Notizbuch,Das,notebook,Notizbücher,,a11
+Kalendar,Der,calendar,-,,a11
+Bierglas,Das,beer glass,Biergläser,,a11
+Postkarte,Die,postcard,Postkarten,,a11
+Puppe,Die,doll,Puppen,,a11
+Disco,Die,disco,Discos,,a11
+Schwimmbad,Das,pool,Schwimmbäder,,a11
+Tageszeit,Die,daytime,Tageszeiten,,a11
+Uhrzeit,Die,time,Uhrzeiten,,a11
+Kühlschrank,Der,refrigerator,Kühlschränke,,a11
+Kartoffel,Die,potato,Kartoffeln,,a11
+Schokolade,Die,chocolate,Schokoladen,,a11
+Suppe,Die,soup,Suppen,,a11
+Apfel,Der,Apple,Äpfel,,a11
+Braten,Der,roast,Braten,,a11
+Orange,Die,Orange,Orangen,,a11
+Butter,Die,butter,-,,a11
+Tomate,Die,tomato,Tomaten,,a11
+Salat,Der,salad,Salate,,a11
+Schinken,Der,ham,Schinken,,a11
+Taxi,Das,taxi,Taxis,,a11
+Gleis,Das,track,Gleise,,a11
+Bahnsteig,Der,platform,Bahnsteige,,a11
+Haltestelle,Die,bus stop,Haltestellen,,a11
+Cappuccino,Der,cappuccino,-,,a11
+Heilkräuter,Die,medicinal herbs,Heilkräuter,,a11
+Praktikum,Das,internship,Praktika,,a11
+Neffe,Der,nephew,Neffen,,a11
+Nichte,Die,niece,Nichten,,a11
+Sternzeichen,Das,Zodiac,Sternzeichen,,a11
+Waage,Die,scale,Waagen,,a11
+Krankenpfleger,Der,male nurse,Krankenpfleger,,a11
+Regal,Das,shelf,-,,a11
+Tüte,Die,bag,Tüten,,a11
+Cello,Das,cello,Celli,,a11
+Blume,Die,flower,Blumen,,a12
+Garage,Die,garage,Garagen,,a12
+Balkon,Der,balcony,-,,a12
+Erdgeschoss,Das,ground floor,Erdgeschosse,,a12
+erster Stock,Der,first floor,-,,a12
+Kinderzimmer,Das,children's room,Kinderzimmer,,a12
+Arbeitzimmer,Das,home Office,-,,a12
+Schlafzimmer,Das,bedroom,Schlafzimmer,,a12
+Toilette,Die,toilet,Toiletten,,a12
+Flur,Der,corridor,Flure,,a12
+Spielplatz,Der,playground,Spielplätze,,a12
+Jugendherberge,Die,hostel,Jugendherbergen,,a12
+Auszug,Der,extract,Auszüge,,a12
+Klimaanlage,Die,air conditioner,Klimaanlagen,,a12
+Heizung,Die,heating system,Heizungen,,a12
+Internetverbindung,Die,Internet connection,-,,a12
+Handtuch,Das,towel,Handtücher,,a12
+Bademantel,Der,bathrobe,Bademäntel,,a12
+Föhn,Der,hair dryer,Föhne,,a12
+Wecker,Der,alarm clock,Wecker,,a12
+Dusche,Die,shower,Duschen,,a12
+Fremdsprache,Die,foreign language,Fremdsprachen,,a12
+Studentplatz,Der,student place,-,,a12
+Aufnahmeprüfung,Die,entrance examination,Aufnahmeprüfungen,,a12
+Berufausbildung,Die,vocational training,-,,a12
+Apotheke,Die,pharmacy,Apotheken,,a12
+Husten,Der,cough,Husten,,a12
+Fieber,Das,fever,Fieber,,a12
+Schnupfen,Der,cold,Schnupfen,,a12
+Tablette,Die,pill,Tabletten,,a12
+Salbe,Die,ointment,Salben,,a12
+Pflaster,Das,patch,Pflaster,,a12
+Zahn,Der,tooth,Zähne,,a12
+Bart,Der,beard,Bärte,,a12
+Geschirr,Das,dishes,Geschirre,,a12
+Wäsche,Die,laundry,Wäschen,,a12
+Spülmaschine,Die,dishwasher,Spülmaschinen,,a12
+T-Shirt,Das,T-Shirt,T-Shirts,,a12
+Bluse,Die,blouse,Blusen,,a12
+Strumpfhose,Die,tights,Strumpfhosen,,a12
+Jacke,Die,jacket,Jacken,,a12
+Mütze,Die,cap,Mützen,,a12
+Kleid,Das,dress,Kleider,,a12
+Pullover,Der,sweater,Pullover,,a12
+Socke,Die,sock,Socken,,a12
+Strumpf,Der,stocking,Strümpfe,,a12
+Gürtel,Der,belt,Gürtel,,a12
+Wolke,Die,cloud,Wolken,,a12
+Gewitter,Das,thunderstorm,Gewitter,,a12
+Silvester,Das,New Year's Eve,Silvester,,a12
+Neujahr,Das,New Year,-,,a12
+Einweihungsparty,Die,housewarming party,Einweihungspartys,,a12
+Karneval,Der,carnival,-,,a12
+Würfel,Der,cube,Würfel,,a12
+Pyramide,Die,pyramid,Pyramiden,,a12
+Bodega,Die,winery,-,,a12
+Stadtmitte,Die,city center,Stadtmitten,,a12
+Bäckerei,Die,bakery,Bäckereien,,a12
+Nebenkosten,Die,additional costs,Nebenkosten,,a12

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conjugate</title>
+        <style>
+            {% include 'style.css' %}
+        </style>
+    </head>
+    <body>
+        <div class="row"><a href="index.html"><button>Go Back</button></a></div>
+        <div class="row">
+            <h2>{{verb}} <i>{{meaning}}</i></h2>
+        </div>
+        <div class="row">
+            {% if ich == correct_ich %}
+                Ich&nbsp;<span style="color: green;">{{ich}}</span>.
+            {% else %}
+                Ich&nbsp;<span style="color: red;"><s>{{ich}}</s> {{correct_ich}}</span>
+            {% endif %}
+        </div>
+        <div class="row">
+            {% if du == correct_du %}
+                Du&nbsp;<span style="color: green;">{{du}}</span>.
+            {% else %}
+                Du&nbsp;<span style="color: red;"><s>{{du}}</s> {{correct_du}}</span>
+            {% endif %}
+        </div>
+        <div class="row">
+            Ich&nbsp;
+            {% if hilfsverb == correct_hilfsverb %}
+                <span style="color: green;">{{hilfsverb}}</span>
+            {% else %}
+                <span style="color: red;"><s>{{hilfsverb}}</s> {{correct_hilfsverb}}</span>
+            {% endif %}&nbsp;
+            {% if partizip == correct_partizip %}
+                <span style="color: green;">{{partizip}}</span>.</p>
+            {% else %}
+                <span style="color: red;"><s>{{partizip}}</s> {{correct_partizip}}</span>.
+            {% endif %}
+        </div>
+        <div class="row">
+            <a href="conjugate.html"><button>Play Again</button></a>
+        </div>
+    </body>
+</html>

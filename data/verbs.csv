@@ -1,0 +1,124 @@
+word,meaning,level,ich,du,partizip,hilfsverb,rank,frequency
+sein,to be,a11,bin,bist,gewesen,sein,1.0,3796784.0
+haben,to have,a11,habe,hast,gehabt,haben,2.0,1618550.0
+werden,to become,a12,werde,wirst,geworden,sein,4.0,948246.0
+können,to be able,a11,kann,kannst,gekonnt,haben,5.0,713918.0
+gehen,to go,a11,gehe,gehst,gegangen,sein,8.0,407185.0
+sagen,to say,a11,sage,sagst,gesagt,haben,9.0,388020.0
+sehen,to see,a11,sehe,siehst,gesehen,haben,10.0,384113.0
+machen,to do,a11,mache,machst,gemacht,haben,11.0,376830.0
+kommen,to come,a11,komme,kommst,gekommen,sein,13.0,317788.0
+geben,to give,a11,gebe,gibst,gegeben,haben,14.0,280421.0
+denken,to think,a11,denke,denkst,gedacht,haben,17.0,181538.0
+hören,to hear,a11,höre,hörst,gehört,haben,18.0,158838.0
+finden,to find,a11,finde,findest,gefunden,haben,19.0,143704.0
+glauben,to believe,a11,glaube,glaubst,geglaubt,haben,20.0,141488.0
+leben,to live,a11,lebe,lebst,gelebt,haben,21.0,138619.0
+nehmen,to take,a11,nehme,nimmst,genommen,haben,23.0,125268.0
+bringen,to bring,a11,bringe,bringst,gebracht,haben,28.0,97391.0
+helfen,to help,a12,helfe,hilfst,geholfen,haben,32.0,87425.0
+reden,to talk,a11,rede,redest,geredet,haben,33.0,87137.0
+brauchen,to need,a11,brauche,brauchst,gebraucht,haben,36.0,82184.0
+sprechen,to speak,a11,spreche,sprichst,gesprochen,haben,37.0,76116.0
+fahren,to drive,a11,fahre,fährst,gefahren,sein,43.0,59107.0
+bekommen,to get,a12,bekomme,bekommst,bekommen,haben,44.0,58826.0
+arbeiten,to work,a11,arbeite,arbeitest,gearbeitet,haben,45.0,55922.0
+erzählen,to tell,a11,erzähle,erzählst,erzählt,haben,48.0,50675.0
+essen,to eat,a11,esse,isst,gegessen,haben,49.0,49877.0
+laufen,to run,a11,laufe,läufst,gelaufen,sein,51.0,46564.0
+heißen,to be called,a11,heiße,heißt,geheißen,haben,52.0,45882.0
+spielen,to play,a11,spiele,spielst,gespielt,haben,53.0,45657.0
+stimmen,to vote,a12,stimme,stimmst,gestimmt,haben,54.0,45252.0
+suchen,to search,a11,suche,suchst,gesucht,haben,58.0,42371.0
+treffen,to meet,a11,treffe,triffst,getroffen,haben,61.0,40933.0
+schaffen,to create,a12,schaffe,schaffst,geschaffen,haben,62.0,40506.0
+danken,to thank,a12,danke,dankst,gedankt,haben,66.0,36112.0
+entschuldigen,to apologize,a12,entschuldige,entschuldigst,entschuldigt,haben,68.0,35036.0
+schlafen,to sleep,a11,schlafe,schläfst,geschlafen,haben,69.0,34498.0
+vergessen,to forget,a12,vergesse,vergisst,vergessen,haben,72.0,34160.0
+nennen,to name,a12,nenne,nennst,genannt,haben,74.0,33522.0
+lieben,to love,a11,liebe,liebst,geliebt,haben,76.0,32609.0
+trinken,to drink,a11,trinke,trinkst,getrunken,haben,81.0,30083.0
+schreiben,to write,a11,schreibe,schreibst,geschrieben,haben,83.0,29407.0
+lesen,to read,a11,lese,liest,gelesen,haben,88.0,27633.0
+lernen,to learn,a11,lerne,lernst,gelernt,haben,89.0,27615.0
+tragen,to wear,a12,trage,trägst,getragen,haben,93.0,26367.0
+kümmern,to take care,a11,kümmere,kümmerst,gekümmert,haben,97.0,25371.0
+anrufen,to call,a11,rufe an,rufst an,angerufen,haben,100.0,24521.0
+lachen,to laugh,a11,lache,lachst,gelacht,haben,113.0,21292.0
+gefallen,to like,a12,gefalle,gefällst,gefallen,haben,115.0,21086.0
+bezahlen,to pay,a11,bezahle,bezahlst,bezahlt,haben,116.0,20824.0
+stecken,to stick,a12,stecke,steckst,gesteckt,haben,117.0,20656.0
+schicken,to send,a12,schicke,schickst,geschickt,haben,124.0,19398.0
+aufhören,to stop,a11,höre auf,hörst auf,aufgehört,haben,128.0,18732.0
+anfangen,to begin,a11,fange an,fängst an,angefangen,haben,129.0,18714.0
+verdienen,to earn,a12,verdiene,verdienst,verdient,haben,131.0,18187.0
+wohnen,to live,a11,wohne,wohnst,gewohnt,haben,133.0,18153.0
+fliegen,to fly,a11,fliege,fliegst,geflogen,sein,134.0,17796.0
+dauern,to last,a11,dauere,dauerst,gedauert,haben,140.0,16810.0
+singen,to sing,a11,singe,singst,gesungen,haben,156.0,14522.0
+zahlen,to pay,a11,zahle,zahlst,gezahlt,haben,160.0,13960.0
+erkennen,to recognize,a12,erkenne,erkennst,erkannt,haben,168.0,13137.0
+fehlen,to be missing,a11,fehle,fehlst,gefehlt,haben,170.0,12726.0
+gehören,to belong,a12,gehöre,gehörst,gehört,haben,171.0,12523.0
+kosten,to taste,a11,koste,kostest,gekostet,haben,182.0,11725.0
+tanzen,to dance,a11,tanze,tanzt,getanzt,haben,186.0,11230.0
+steigen,to rise,a12,steige,steigst,gestiegen,sein,197.0,10140.0
+mitnehmen,to take,a11,nehme mit,nimmst mit,mitgenommen,haben,205.0,9805.0
+kennenlernen,to get to know,a11,lerne kennen,lernst kennen,kennengelernt,haben,217.0,9214.0
+besuchen,to visit,a11,besuche,besuchst,besucht,haben,218.0,9197.0
+zählen,to count,a11,zähle,zählst,gezählt,haben,224.0,9018.0
+bestehen,to exist,a12,bestehe,bestehst,bestanden,haben,228.0,8886.0
+wachsen,to grow,a11,wachse,wächst,gewachsen,sein,288.0,6699.0
+ankommen,to arrive,a11,komme an,kommst an,angekommen,sein,290.0,6666.0
+rauchen,to smoke,a12,rauche,rauchst,geraucht,haben,294.0,6582.0
+abholen,to pick up,a11,hole ab,holst ab,abgeholt,haben,312.0,6128.0
+aufstehen,to stand up,a11,stehe auf,stehst auf,aufgestanden,sein,325.0,5940.0
+reisen,to travel,a12,reise,reist,gereist,sein,332.0,5893.0
+kochen,to cook,a11,koche,kochst,gekocht,haben,333.0,5861.0
+aufwachen,to wake up,a11,wache auf,wachst auf,aufgewacht,sein,352.0,5433.0
+fernsehen,to watch TV,a11,sehe fern,siehst fern,ferngesehen,haben,369.0,5140.0
+reiten,to ride,a12,reite,reitest,geritten,sein,392.0,4672.0
+studieren,to study,a11,studiere,studierst,studiert,haben,406.0,4520.0
+waschen,to wash,a12,wasche,wäschst,gewaschen,haben,409.0,4489.0
+schwimmen,to swim,a11,schwimme,schwimmst,geschwommen,sein,413.0,4408.0
+abschließen,to complete,a12,schließe ab,schließt ab,abgeschlossen,haben,425.0,4265.0
+reagieren,to react,a12,reagiere,reagierst,reagiert,haben,441.0,4085.0
+ausmachen,to decide,a12,mache aus,machst aus,ausgemacht,haben,490.0,3487.0
+telefonieren,to make phone calls,a11,telefoniere,telefonierst,telefoniert,haben,493.0,3472.0
+malen,to paint,a11,male,malst,gemalt,haben,521.0,3290.0
+anbieten,to offer,a12,biete an,bietest an,angeboten,haben,522.0,3277.0
+verpassen,to miss,a11,verpasse,verpasst,verpasst,haben,524.0,3273.0
+schieben,to push,a12,schiebe,schiebst,geschoben,haben,543.0,3118.0
+aussteigen,to get out,a11,steige aus,steigst aus,ausgestiegen,sein,584.0,2788.0
+decken,to cover,a12,decke,deckst,gedeckt,haben,600.0,2702.0
+einsteigen,to board,a11,steige ein,steigst ein,eingestiegen,sein,730.0,2032.0
+putzen,to clean,a12,putze,putzt,geputzt,haben,734.0,2014.0
+einkaufen,to shop,a11,kaufe ein,kaufst ein,eingekauft,haben,738.0,2004.0
+verschieben,to postpone,a12,verschiebe,verschiebst,verschoben,haben,751.0,1941.0
+beschweren,to complain,a12,beschwere,beschwerst,beschwert,haben,765.0,1909.0
+abfahren,to leave,a11,fahre ab,fährst ab,abgefahren,sein,778.0,1865.0
+parken,to park,a12,parke,parkst,geparkt,haben,801.0,1786.0
+baden,to bathe,a12,bade,badest,gebadet,haben,806.0,1759.0
+aufräumen,to clean up,a11,räume auf,räumst auf,aufgeräumt,haben,840.0,1663.0
+angeln,to fish,a12,angle,angelst,geangelt,haben,878.0,1559.0
+fotografieren,to take photographs,a11,fotografiere,fotografierst,fotografiert,haben,882.0,1549.0
+aufhängen,to hang,a12,hänge auf,hängst auf,aufgehängt,haben,932.0,1400.0
+segeln,to sail,a12,segle,segelst,gesegelt,haben,942.0,1371.0
+backen,to bake,a11,backe,bäckst,gebacken,haben,959.0,1330.0
+anmachen,to turn on,a12,mache an,machst an,angemacht,haben,970.0,1287.0
+anmelden,to register,a12,melde an,meldest an,angemeldet,haben,1170.0,919.0
+wischen,to wipe,a12,wische,wischst,gewischt,haben,1279.0,787.0
+grillen,to grill,a12,grille,grillst,gegrillt,haben,1321.0,747.0
+spülen,to wash dishes,a12,spüle,spülst,gespült,haben,1457.0,621.0
+abbiegen,to turn,a12,biege ab,biegst ab,abgebogen,haben,1533.0,567.0
+buchstabieren,to spell,a11,buchstabiere,buchstabierst,buchstabiert,haben,1678.0,461.0
+surfen,to surf,a11,surfe,surfst,gesurft,haben,1734.0,429.0
+abwaschen,to do the dishes,a12,wasche ab,wäschst ab,abgewaschen,haben,1868.0,362.0
+bügeln,to iron,a12,bügle,bügelst,gebügelt,haben,2040.0,299.0
+zelten,to camp,a12,zelte,zeltest,gezeltet,haben,2058.0,293.0
+umsteigen,to change,a11,steige um,steigst um,umgestiegen,sein,2476.0,180.0
+feststecken,to get stuck,a11,stecke fest,steckst fest,festgesteckt,haben,2577.0,162.0
+rausbringen,to bring out,a12,,,,,,
+abtrocknen,to dry,a12,,,,,,
+staubsaugen,to vacuum,a12,,,,,,

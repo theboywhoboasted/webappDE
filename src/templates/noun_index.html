@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Der|Die|Das</title>
+        <style>
+            {% include 'style.css' %}
+        </style>
+        </head>
+    <body>
+        <div class="row"><a href="index.html"><button>Go Back</button></a></div>
+        <form action="noun_check.html" method="get">
+            <div class="row">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Article</th>
+                            <th>Word</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for word in words %}
+                        <tr>
+                            <td>
+                                <input
+                                type="text"
+                                autocomplete="off"
+                                autocorrect="off"
+                                autocapitalize="off"
+                                spellcheck="false"
+                                placeholder="der/die/das"
+                                name="article{{ loop.index }}"
+                                required
+                                pattern="der|die|das"
+                                title="Please enter 'der', 'die', or 'das'"
+                                style="font-size: 150%; width: 10ch;">
+                            </td>
+                            <td>
+                                <p>{{word}}</p>
+                                <input type="hidden" name="word{{ loop.index }}" value="{{word}}">
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <button type="button" onclick="window.location.reload();">Reset</button>
+                <button type="submit">Check</button>
+            </div>
+        </form>
+    </body>
+</html>

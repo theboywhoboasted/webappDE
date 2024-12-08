@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Der|Die|Das</title>
+        <style>
+            {% include 'style.css' %}
+        </style>
+        </head>
+    <body>
+        <div class="row"><a href="index.html"><button>Go Back</button></a></div>
+        <br>
+        <div class="row">
+            <table>
+                <thead>
+                    <tr class="border">
+                        <th>Word</th>
+                        <th>Meaning</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for word,meaning,correct_meaning in outputs %}
+                    <tr class="border">
+                        <td>{{word}}</td>
+                        <td>
+                            {% if meaning == correct_meaning %}
+                            <span style="color: green;">{{meaning}}</span>
+                            {% else %}
+                            <span style="color: red;"><s>{{meaning}}</s> {{correct_meaning}}</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <a href="match{{ style }}.html"><button>Play Again</button></a>
+        </div>
+    </body>
+</html>
