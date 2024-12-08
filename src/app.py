@@ -15,20 +15,45 @@ app = Flask(__name__)
 N = 4
 
 
+def check_cookies_allowed():
+    cookies_allowed = request.cookies.get("cookies_allowed", "F")
+    return cookies_allowed == "T"
+
+
+@app.route("/cookies.html", methods=["POST", "GET"])
+def ask_for_cookies():
+    if request.method == "POST" and "allow" in request.form:
+        response = make_response(render_template("index.html"))
+        response.set_cookie("cookies_allowed", "T")
+        return response
+    cookie_fields = request.cookies.keys()
+    response = make_response(render_template("cookies.html"))
+    if request.method == "POST" and "clear" in request.form:
+        for field in cookie_fields:
+            response.set_cookie(field, "", expires=0)
+    return response
+
+
 @app.route("/", methods=["GET"])
 @app.route("/index.html", methods=["GET"])
 def index():
+    if not check_cookies_allowed():
+        return ask_for_cookies()
     return render_template("index.html")
 
 
 @app.route("/conjugate.html", methods=["GET"])
 def conjugate():
+    if not check_cookies_allowed():
+        return ask_for_cookies()
     verb, meaning = get_verb_to_test()
     return render_template("verb_index.html", verb=verb, meaning=meaning)
 
 
 @app.route("/derdiedas.html", methods=["GET"])
 def derdiedas():
+    if not check_cookies_allowed():
+        return ask_for_cookies()
     nouns_to_test = get_nouns_to_test(N)
     return render_template("noun_index.html", words=nouns_to_test)
 
@@ -49,6 +74,9 @@ def match_words():
 
 
 def vocabulary(style):
+    if not check_cookies_allowed():
+        return ask_for_cookies()
+
     def encode_array(arr):
         return "|".join(arr)
 
@@ -65,6 +93,7 @@ def vocabulary(style):
     else:
         cookies = request.cookies
 
+    assert check_cookies_allowed()
     cookie_words = cookies.get("words", "")
     if "|" in cookie_words:
         words = decode_array(cookies.get("words"))
@@ -141,6 +170,7 @@ def vocab_check(style):
     response = make_response(
         render_template("vocab_check.html", style=style, outputs=outputs)
     )
+    assert check_cookies_allowed()
     for cookie in request.cookies:
         response.set_cookie(cookie, "", expires=0)
     return response
