@@ -179,4 +179,5 @@ def vocab_check(style):
 if __name__ == "__main__":
     # this port needs to be exposed in the Dockerfile
     port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port, debug=True)
+    debug = os.environ.get("DEBUG", "False").lower() == "true"
+    app.run(host="0.0.0.0", port=port, debug=debug)

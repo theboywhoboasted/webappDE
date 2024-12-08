@@ -1,5 +1,12 @@
 <div class="row">
     <form action="cookies.html" method="post">
-        <button type="submit" name="clear">Clear cookies</button>
+        <button type="submit" name="clear" onclick="return confirmAction()">Clear cookies</button>
     </form>
 </div>
+<script>
+    function confirmAction() {
+        return confirm("Are you sure you want to clear all cookies?\
+ This will reset the state of the games and take you back to\
+ the page that requests you to accept cookies.");
+    }
+</script>
