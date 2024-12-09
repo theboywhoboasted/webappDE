@@ -2,15 +2,24 @@
 PROJECT_TAG = webapp/deutsch
 
 install:
-	pip install --quiet --root-user-action=ignore black pylint ruff
-	docker build --quiet --tag=$(PROJECT_TAG) .
+	pip install --quiet -r requirements.txt
+
+build-dev:
+	docker build --quiet --tag=$(PROJECT_TAG) -f Dockerfile.dev .
+
+build-prod:
+	docker build --quiet --tag=$(PROJECT_TAG) -f Dockerfile.prod .
+
+build: build-dev build-prod
 
 format:
-	black src/*.py
+	black src/
 
 lint:
-	PYTHONPATH=src pylint src/ --disable=R,C
+	black --check src/
 	ruff check src/
-	docker run --rm -i hadolint/hadolint < Dockerfile
+	docker run --rm -i hadolint/hadolint < Dockerfile.dev
+	docker run --rm -i hadolint/hadolint < Dockerfile.prod
+	PYTHONPATH=src pylint src/ --disable=R,C
 	
-all: install lint format
+all: install build lint
